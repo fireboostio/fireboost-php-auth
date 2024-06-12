@@ -1,0 +1,21 @@
+{
+  "name": "fireboostio/php-encryptor",
+  "description": "Encryptor package for fireboost.io. This package will create the input data for the authentication",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Szilard Bodor",
+      "email": "szilard@fireboost.io"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Fireboostio\\Encryptor\\": "src/"
+    }
+  },
+  "require": {
+    "phpseclib/phpseclib": "~3.0"
+  },
+  "minimum-stability": "stable"
+}
