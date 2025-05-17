@@ -33,7 +33,7 @@ class CredentialExtractor
         $apiKeyPayload = $this->apiKeyExtractor->getApiKeyPayload($apiKey);
 
         return [
-            'client_id' => $apiKeyPayload['clientId'],
+            'project' => $apiKeyPayload['project'],
             'encripted_api_key' => $this->keyEncryptor->getEncryptedApiKey($apiKey)
         ];
     }
