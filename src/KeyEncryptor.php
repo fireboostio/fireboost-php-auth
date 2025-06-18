@@ -9,7 +9,7 @@
  * Time: 20:25
  */
 
-namespace Fireboostio\Encryptor;
+namespace FireboostIO\Encryptor;
 
 use LogicException;
 use phpseclib3\Crypt\RSA;
