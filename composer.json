@@ -1,5 +1,5 @@
 {
-  "name": "fireboostio/php-encryptor",
+  "name": "fireboostio/fireboost-php-auth",
   "description": "Encryptor package for fireboost.io. This package will create the input data for the authentication",
   "license": "MIT",
   "type": "library",
