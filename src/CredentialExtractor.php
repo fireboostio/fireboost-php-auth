@@ -9,7 +9,7 @@
  * Time: 22:14
  */
 
-namespace Fireboostio\Encryptor;
+namespace FireboostIO\Encryptor;
 
 class CredentialExtractor
 {

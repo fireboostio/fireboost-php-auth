@@ -18,7 +18,7 @@ Below are examples demonstrating how to use the library:
 To extract the payload from a Fireboost API key, use the `ApiKeyExtractor` class:
 
 ```PHP
-use Fireboostio\Encryptor\ApiKeyExtractor;
+use FireboostIO\Encryptor\ApiKeyExtractor;
 
 $apiKeyExtractor = new ApiKeyExtractor();
 $payload = $apiKeyExtractor->getApiKeyPayload($apiKey);
@@ -28,7 +28,7 @@ $payload = $apiKeyExtractor->getApiKeyPayload($apiKey);
 To get the encrypted API key from the API key token, use the `KeyEncryptor` class:
 
 ```PHP
-use Fireboostio\Encryptor\KeyEncryptor;
+use FireboostIO\Encryptor\KeyEncryptor;
 
 $keyEncryptor = new KeyEncryptor();
 $encryptedApiKey = $keyEncryptor->getEncryptedApiKey($apiKey);
@@ -37,7 +37,7 @@ $encryptedApiKey = $keyEncryptor->getEncryptedApiKey($apiKey);
 To create the login input data from the API key, use the `CredentialExtractor` class. This is the main functionality of the library, allowing the creation of login data from the API key for authentication:
 
 ```PHP
-use Fireboostio\Encryptor\CredentialExtractor;
+use FireboostIO\Encryptor\CredentialExtractor;
 
 $credentialExtractor = new CredentialExtractor();
 $loginInputData = $credentialExtractor->getLoginInputData($apiKey);
