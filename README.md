@@ -1,13 +1,13 @@
 # PHP-encryptor
 
-PHP-encryptor is a small PHP library created for [fireboost.io](https://fireboost.io). This library provides functionalities to extract payloads from API keys, encrypt API keys, and create login input data from API keys for authentication purposes.
+Fireboost-php-auth is a small PHP library created for [fireboost.io](https://fireboost.io). This library provides functionalities to extract payloads from API keys, encrypt API keys, and create login input data from API keys for authentication purposes.
 
 ## Installation
 
-You can install the PHP-encryptor library via Composer:
+You can install the fireboost-php-auth library via Composer:
 
 ```bash
-composer require fireboostio/php-encryptor
+composer require fireboostio/fireboost-php-auth
 ```
 
 ## Usage
