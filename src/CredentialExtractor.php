@@ -31,7 +31,7 @@ class CredentialExtractor
     public function getLoginInputData(string $apiKey)
     {
         return [
-            'encripted_api_key' => $this->keyEncryptor->getEncryptedApiKey($apiKey),
+            'encrypted_api_key' => $this->keyEncryptor->getEncryptedApiKey($apiKey),
         ];
     }
 }
